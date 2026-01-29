@@ -11,3 +11,7 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// Задача: добавить вывод версии в консоль
+const API_VERSION = '1.0.0';
+console.log(📦 Версия API: ${API_VERSION});
+console.log(👨‍💻 Разработчик: Artem Stariy);
