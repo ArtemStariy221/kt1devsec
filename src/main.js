@@ -15,3 +15,4 @@ app.listen(PORT, () => {
 const API_VERSION = '1.0.0';
 console.log(📦 Версия API: ${API_VERSION});
 console.log(👨‍💻 Разработчик: Artem Stariy);
+
